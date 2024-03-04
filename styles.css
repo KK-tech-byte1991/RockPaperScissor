@@ -1,0 +1,86 @@
+body {
+    background: #8cc461;
+    height: 80vh;
+}
+
+/* Container for the hand gestures */
+.hand-gestures {
+    display: flex;
+    justify-content: space-around;
+    /* Distribute evenly */
+    width: 100%;
+    /* Make the container take up the full width */
+    margin: 10px auto;
+    /* Add some margin for better spacing */
+}
+
+/* Individual hand gesture styles */
+.hand-gesture {
+    width: 30%;
+    /* Set the width of each hand gesture */
+    text-align: center;
+    /* Center the text below the image */
+    margin: 0 10px;
+    /* Add some margin between gestures */
+}
+
+/* Adjust the image size as needed */
+.hand-gesture img {
+    width: 150px;
+    height: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+.shadow {
+    box-shadow: 10px 50px 150px yellow;
+}
+
+
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;    
+    right: 40px;
+    top: 100px;
+    width: 300px;    
+    height: 600px;    
+    overflow: auto;
+    
+
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    border-radius: 5px;
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 100%;
+    /* Adjust width as needed */
+    height: 60%;
+    /* overflow: scroll; */
+    background-color: green;
+}
+
+.close-button {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hurrayimage{
+    padding-top: 200px;
+}
