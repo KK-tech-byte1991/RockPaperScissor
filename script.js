@@ -18,7 +18,7 @@ const resultDiv = document.getElementById("resultDiv");
 let mainScreen = document.getElementById("mainScreen");
 let hurrayScreen = document.getElementById("hurrayScreen");
 let next=document.getElementById("next")
-hurrayScreen.classList.add("hidden")
+mainScreen.classList.add("hidden")
 resultDiv.classList.add("hidden")
 next.classList.add("hidden")
 function textToDisplay(num) {
